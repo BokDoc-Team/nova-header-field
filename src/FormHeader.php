@@ -13,7 +13,7 @@ class FormHeader extends Field
      */
     public $component = 'form-header';
 
-    public function __construct(string $name, ?string $attribute = null, ?mixed $resolveCallback = null)
+    public function __construct(string $name, string $attribute = null, mixed $resolveCallback = null)
     {
         parent::__construct($name, $attribute, $resolveCallback);
         
